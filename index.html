@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify-clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="container-flex">
+    <div class="left-border">
+
+      <div class="home size" style=" background-color:  #242424; ">
+        <img class="invert logo" src="logo.svg" alt="logo">
+        <div class="cross">
+          <i class="fa-solid fa-x fa-sm invert" style="color: #000000;"></i>
+        </div>
+
+        <p class="home-content"><img class="invert" src="home.svg" alt="home" style="padding:3px">HOME</p>
+        <p class="home-content"><img class="invert" src="search.svg" alt="search" style="padding:3px">SEARCH</p>
+
+      </div>
+
+      <div class="library size" style=" background-color:  #242424; height: 600px">
+        <div class="lib-content">
+          <img class="invert" src="lib.svg" alt="lib" style="padding-left:9px">
+
+          <p>LIBRARY</p>
+          <i class="fa-solid fa-plus plus"></i>
+        </div>
+
+        <div class="song-cards">
+
+          <ul>
+            <!-- <li>  
+            
+               <i  class="fa-solid fa-music invert" style="color: #000000;"></i>
+              <div class="card">
+                <p>Song-name</p>
+                <p>Artist</p>
+              </div>
+              <p>Play-Now!!</p>
+              <i class="fa-solid fa-play fa-rotate-180 invert" style="color: #000000;"></i> 
+           
+           </li>
+ -->
+
+          </ul>
+
+        </div>
+
+
+      </div>
+      <div class="footer">
+        <div class="sec1">
+          <a href="https://www.spotify.com/in-en/legal/"
+            class="Link-sc-k8gsk-0 eBaZxL Link__BottomLink-sc-j13lu8-0 fvCbl" data-encore-id="textLink">Legal</a>
+
+          <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+            class="Link-sc-k8gsk-0 eBaZxL Link__BottomLink-sc-j13lu8-0 fvCbl"
+            data-encore-id="textLink">Security&Safety</a>
+
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+            class="Link-sc-k8gsk-0 eBaZxL Link__BottomLink-sc-j13lu8-0 fvCbl"
+            data-encore-id="textLink">Privacy&Policy</a>
+
+        </div>
+        <div class="sec2">
+
+          <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+            class="Link-sc-k8gsk-0 eBaZxL Link__BottomLink-sc-j13lu8-0 fvCbl" data-encore-id="textLink">Cookies </a>
+
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+            class="Link-sc-k8gsk-0 eBaZxL Link__BottomLink-sc-j13lu8-0 fvCbl" data-encore-id="textLink">About Ads</a>
+        </div>
+
+
+
+        <div class="button">
+          <button><i class="fa-regular fa-globe"></i>
+            <p>English</p>
+          </button>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="right-border">
+
+      <div class="box2 boxes ">
+        <div class="innerbox header ">
+          <div class="icon invert">
+            <i class="fa-solid fa-bars fa-lg" style="color: #000000;"></i>
+          </div>
+          <div class="icons">
+            <!-- greater than and less than icons -->
+          </div>
+          <div>
+            <button class="right-button1">Sign UP</button>
+            <button class="right-button2"> Log IN</button>
+
+          </div>
+        </div>
+        <div class=" artists column-property">
+          <div class="header1">
+            <h3>Popular Artists</h3>
+          </div>
+          <div class="content">
+            <div data-folder="cs" class="card1">
+              <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+              <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" height="200px;">
+              <h3>Pritam</h3>
+              <p>Artist</p>
+            </div>
+
+            <div data-folder="ncs" class="card1">
+              <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+              <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" height="200px;">
+              <h3>Arijit Singh</h3>
+              <p>Artist</p>
+            </div>
+
+            <div data-folder="kcs" class="card1">
+              <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+              <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" height="200px;">
+              <h3>A.R Rahman</h3>
+              <p>Artist</p>
+            </div>
+
+            <div data-folder="hcs" class="card1">
+              <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+              <img src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16" height="200px;">
+              <h3>Anirudh Ravichandar</h3>
+              <p>Artist</p>
+            </div>
+
+
+          </div>
+
+
+          <div class=" albums column-property">
+            <div class="header1">
+              <h3>Popular Albums</h3>
+            </div>
+
+            <div class="content">
+              <div class="card2">
+                <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" height="200px;">
+                <h3>lovehotel</h3>
+                <p>loveovermax</p>
+              </div>
+
+              <div class="card2">
+                <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" height="200px;">
+                <h3>ANIMAL</h3>
+                <p>Artist</p>
+              </div>
+
+              <div class="card2">
+                <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" height="200px;">
+                <h3>EK THA RAJA</h3>
+                <p>Artist</p>
+              </div>
+
+              <div class="card2">
+                <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" height="200px;">
+                <h3>Moostape</h3>
+                <p>Artist</p>
+              </div>
+
+
+            </div>
+
+
+
+
+            <div class=" radio column-property">
+              <div class="header1">
+                <h3>Popular Radio</h3>
+              </div>
+
+
+              <div class="content">
+
+                <div class="card2">
+                  <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                  <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                    height="200px;">
+                  <h3>Arijit Singh Radio</h3>
+                  <p>Artist</p>
+                </div>
+
+                <div class="card2">
+                  <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                  <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                    height="200px;">
+                  <h3>A.R Rahman radio</h3>
+                  <p>Artist</p>
+                </div>
+
+                <div class="card2">
+                  <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                  <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                    height="200px;">
+                  <h3>Diljit Josangah radio</h3>
+                  <p>Artist</p>
+                </div>
+
+                <div class="card2">
+                  <div class="circle"><i class="fa-solid fa-play" style="color: #000000;"></i></div>
+                  <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4K6blSRoklNdpw4mzLxwfn/en"
+                    height="200px;">
+                  <h3>Kumar Sanu radio</h3>
+                  <p>Artist</p>
+                </div>
+
+
+              </div>
+
+             
+
+              <div class="playbar">
+
+                <p class="song-name">Song name</p>
+                <div class="btns">
+                  <i id="previous" class="fa-solid fa-backward" style="color: #000000; height:18px "></i>
+                  <i id="play"  class="fa-solid fa-play  " style="color: #000000;  height:18px "></i>
+                  <!-- <i  id="play" class="fa-solid fa-pause play" style="color: #000000;"></i> -->
+                  <i id="next" class="fa-solid fa-forward" style="color: #000000;  height:18px"></i>
+
+
+                </div>
+
+                <p class="duration">00:00/00:00</p>
+
+                <div class="volume">
+                  <div class="vol-img">
+                    <i class="fa-solid fa-volume-low fa-lg" style="color: #000000;"></i>
+                  </div>
+
+                  <div class="range">
+                    <input type="range" min="0" max="100" value="50">
+                  </div>
+                </div>
+
+                <div class="seekbar">
+                  <div class="seek-circle">
+
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+body{
+    background-color:#121212;;
+    color:white;
+    
+}
+
+body{
+    font-family:CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", sans-serif;
+}
+
+.icon{
+    /* position:absolute;
+    left: 414px;
+    top: 39px; */
+}
+.left{
+    width:25vw;
+   
+}
+.cross{
+    position: absolute;
+    top: 45px;
+    left: 330px;
+    display:none;
+    
+}
+
+.right{
+    width:75vw;
+    position:relative;
+    
+}
+.home{
+    gap:10px;
+    padding:10px;
+}
+.plus{
+    padding-left:200px;
+}
+
+.home-content,.lib-content{
+    width:25px;
+    display:flex;
+    align-items:center;
+    margin:5px;
+    padding:7px;
+    gap:6px;
+    font-size:13px;
+    font-weight:900;
+}
+
+/* .left-border{
+    position:fixed;
+    left:0px;
+
+} */
+
+.logo{
+    margin:5px;
+    padding:4px;
+}
+.footer button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:30px;
+    border-radius:20px;
+     border:none;
+     border:solid white 0.75px;
+     background-color:#121212;
+    gap:5px;
+     color:white;
+     margin-top:6px;
+     width:100px;
+}
+/* 
+.playlist,.browse-podcast{
+     padding:15px;
+    /* background-color:rgb(60, 60, 60); */ 
+    /* margin:5px;
+    border-radius:10px; */
+
+
+/* } */
+
+
+
+
+.invert{
+    filter:invert(1);
+}
+
+.logo{
+    padding-left:11px;
+
+}
+
+.song-cards{
+    height:400px;
+    overflow:auto;
+}
+
+.song-cards ul{
+    width:300px;
+}
+.song-cards li{
+    list-style: none;
+
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border:2px solid white;
+    border-radius:5px;
+    font-size:12px;
+    gap: 3.5px;
+    margin: 5px;
+    margin-left: -29px;
+    padding: 3px;
+}
+
+
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    gap:12px;
+}
+
+.footer a{
+   color:white;
+   font-size:13px;
+}
+
+.sec1,.sec2,.button{
+    display:flex;
+    gap:15px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.icons{
+    display:flex;
+    gap:20px;
+    padding:5px;
+}
+
+.right-button1{   
+    color: grey;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 11px;
+    padding: 5px;
+    font-size:13px;
+    margin:4px;
+} 
+
+.right-button1:hover{
+    color:black;
+    font-size:14px;
+
+}
+
+
+.right-button2{
+    color:white;
+    background-color:black;
+    border:solid black 1px;
+    border-radius:11px;
+    padding:5px;
+    font-size:13px;
+    margin:4px;
+}
+
+.right-button2:hover{
+    font-size:14px;
+}
+
+.innerbox{
+    background-color: #1a1a1a;
+    gap:10px;
+    margin-top:0px;
+    padding-left:0px;
+    padding:15px;
+    margin:0px;
+    border-radius:10px;
+    height:33px;
+   
+   
+}
+.columns{
+    display:flex;
+    flex-direction:column;
+}
+
+.header1{
+    margin:10px;
+    margin-left:15px;
+    
+    
+}
+.content{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index{
+    display:none;
+}
+
+
+
+.card1{
+    height:300px;
+    width:200px;
+   
+    background-size:contain;
+    position:relative;
+
+
+}
+
+.card1 img{
+    height:200px;
+    width:200px;
+    object-fit:cover;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.card2 img{
+    height:200px;
+    width:170px;
+   border-radius:5px;
+   margin:3px;
+}
+
+
+
+.card1,.card2 h3,p{
+    margin:10px;
+    
+  
+    
+}
+
+.card2{
+    position:relative;
+}
+.circle{
+    display: inline-flex;           /* Ensure it fits the content and centers the icon */
+      width: 50px;                    /* Set the desired width */
+      height: 50px;                   /* Set the desired height */
+      background-color: green;        /* Set the background color */
+      border-radius: 50%;             /* Make it circular */
+      align-items: center;            /* Center vertically */
+      justify-content: center;    
+      position: absolute;
+    bottom: 124px;
+    left: 138px;  
+    opacity: 0;                     /* Initially hidden */
+    visibility: hidden;             /* Initially hidden */
+    transition: opacity 1s, visibility 1s;  
+    
+    
+}
+
+
+
+.card1:hover .circle{
+    opacity: 1;                     /* Show on hover */
+    visibility: visible;  
+  
+}
+
+
+.card2:hover .circle{
+    opacity: 1;                     /* Show on hover */
+    visibility: visible;  
+} 
+ 
+.playbar{
+    position:absolute;
+    /* bottom:18px; */
+    background-color:rgb(72 84 72);
+    justify-content: center;
+    height: 51px;
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+    align-items: center;
+    border-radius: 5px;
+    width: 1080px;
+    /* left: 406px; */
+}
+
+.btns{
+    display:flex;
+    gap:10px;
+    margin-left: 173px;
+    margin-top: 6px;
+}
+
+.seekbar{
+    position: absolute;
+    bottom: 3px;
+    height: 4px;
+    width: 99%;
+    background-color: #0e0e0e;
+    margin: 0px 6px 0px 6px;
+    cursor:pointer;
+
+}
+
+.seek-circle{
+    position:absolute;
+    height:8px;
+    width:8px;
+    bottom:-2px;
+    border-radius:50%;
+    background-color:white;
+    left:0px;
+    transform: translateX(-50%);
+
+    
+
+}
+.volume{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3px;
+}
+.vol-img{
+    
+   margin:10px;
+   margin-top:30px;
+}
+/* .range{
+    display:none;
+} */
+
+.volume:hover::after{
+    display:inline;
+}
+
+
+.playbar i{
+    height:30px;
+    cursor:pointer;
+}
+
+@media (max-width: 400px ){
+    .left-border{
+        background-color:red;
+        position:absolute;
+        left:-400px;
+        transition:all 2s;
+        z-index:1;
+
+
+    }
+
+     .cross{
+        display:block;
+     }
+
+     .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     
+   .boxes{
+    width:92vw;
+    height:1400px;
+   }
+
+   /* .playbar{
+    width:92vw;
+   } */
+    }
+
+   
+ 
+
+
+
+
+
+
+

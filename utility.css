@@ -1,0 +1,50 @@
+.border{
+    
+    margin:3px;
+}
+
+.flex{
+    display:flex;
+
+}
+
+/* .justify-content{
+    justify-content:center;
+}
+
+.items-center{
+    align-items:center;
+} */
+
+.size{
+    margin:8px;
+    border-radius:5px;
+}
+
+.boxes{
+    background-color:  #242424; 
+    height:1200px;
+    border-radius:10px;
+    gap:10px;
+    /* padding:10px; */
+    margin:6px;
+    margin-top:7px;
+    width: 73vw;
+}
+    
+
+
+.column-property{
+    height:370px;
+  
+}
+
+.container-flex{
+    display:flex;
+}
+   
+   
+
+
+
+
